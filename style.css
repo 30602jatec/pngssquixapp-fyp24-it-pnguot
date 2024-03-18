@@ -8,8 +8,7 @@
 }
 title{
     font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
-    
+    font-family: 'Times New Roman', Times, serif;  
     
 }
 
@@ -57,13 +56,14 @@ body{
 }
 
 .info_box{
-    width: 540px;
+    width: 440px;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
+    
 }
 
 .info_box .info-title{
@@ -84,7 +84,7 @@ body{
 
 .info_box .info-list .info{
     margin: 5px 0;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .info_box .info-list .info span{
@@ -115,19 +115,21 @@ body{
 }
 
 .quiz_box{
-    width: 550px;
+    width: 450px;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
+    text-align: center;
+   
 }
 
 .quiz_box header{
     position: relative;
     z-index: 2;
-    height: 70px;
+    height: 50px;
     padding: 0 30px;
     background: #fff;
     border-radius: 5px 5px 0 0;
@@ -135,6 +137,8 @@ body{
     align-items: center;
     justify-content: space-between;
     box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.1);
+    
+   
 }
 
 .quiz_box header .title{
@@ -152,7 +156,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 145px;
+    width: 140px;
 }
 
 .quiz_box header .timer .time_left_txt{
@@ -388,4 +392,3 @@ footer button.show{
     color: #fff;
     background: #007bff;
 }
-

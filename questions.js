@@ -135,7 +135,7 @@ let questions = [
   
   {
     numb: 12,
-    question: "The highest mountain in PNG?",
+    question: "The highest peak in PNG?",
     answer: "Mt. Wilhelm",
     options: [
       "Mt. Hagen",
@@ -333,7 +333,7 @@ let questions = [
   
   {
     numb: 27,
-    question: "PNG was a host country who hosts a most significant summit in 2018?",
+    question: "PNG was the host country that hosts a most significant summit in 2018?",
     answer: "Apec",
     options: [
       "World Health Day",
